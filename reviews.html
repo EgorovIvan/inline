@@ -28,23 +28,23 @@
     <!-- libraries -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/less"></script>
-    <link href="js/owl-carousel/dist/assets/owl.carousel.min.css" rel="stylesheet preload" as="style" type="text/css">
-    <script defer src="js/owl-carousel/dist/owl.carousel.min.js"></script>
-    <script defer src="js/slider-carousel.js"></script>
+
+    <!-- scripts -->
+    <script defer src="js/link-page.js"></script>
 </head>
 
 <body>
 <header class="header">
     <div class="container">
         <nav class="header__nav">
-            <h3 class="header__nav-title">
-                <a href="index.html"> ОПИСАНИЕ</a>
+            <h3 class="header__nav-title" id="desc">
+                ОПИСАНИЕ
             </h3>
-            <h3 class="header__nav-title active-page">
-                <a href="reviews.html">ОТЗЫВЫ</a>
+            <h3 class="header__nav-title active-page" id="reviews">
+                ОТЗЫВЫ
             </h3>
-            <h3 class="header__nav-title">
-                <a href="where.html">ОТКУДА?</a>
+            <h3 class="header__nav-title" id="where">
+                ОТКУДА?
             </h3>
         </nav>
     </div>
@@ -64,26 +64,6 @@
         </button>
     </div>
 </main>
-
-<style>
-    .main__additional-list {
-        width: 66.625rem;
-        height: 23.81rem;
-    }
-
-    @media screen and (max-width: 750px) {
-        .main__additional-slider {
-            /*padding: 0.9375rem 0.75rem;*/
-        }
-
-        .main__additional-list {
-            width: 23.4375rem;
-            height: 13.75rem;
-
-
-        }
-    }
-</style>
 </body>
 
 </html>
